@@ -31,7 +31,7 @@
 
 # Léxico
 
-!["tabela"](./tabela_parsing.jpg)
+!["tabela"](./tabela_parsing.JPG)
 
 
 # Sintático
