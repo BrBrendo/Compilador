@@ -1,13 +1,13 @@
 # Compilador
 
 # Gramática 
-*<E> -> <E>+<T> | <E>-<T> | <T>
+* <E> -> <E>+<T> | <E>-<T> | <T>
 
-*<T> -> <T>*<P> | <T>/<P> | <P>
+* <T> -> <T>*<P> | <T>/<P> | <P>
 
-*<P> -> <P>^<F> | exp[<F>] | <F>
+* <P> -> <P>^<F> | exp[<F>] | <F>
 
-*<F> -> (<E>) | id
+* <F> -> (<E>) | id
 
 # Tipo Preditivo não recursivo
 * E  -> TE'
@@ -60,7 +60,6 @@
 
 #### Análise sintatica descendente L-atribuido
 
-# Tabela
 
 | Produção  | REGRA SEMÂNTICA   |
 | ------- | -------- |
