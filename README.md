@@ -1,4 +1,5 @@
 # Compilador
+As entradas são recebidas pelo arquivo input.txt, Vale ressaltar que existe um bug ainda não resolvido se vc realizar operações com final tendo "]" EX: 1+(2*3)+exp[4] SÓ PODEM SER FEITAS DANDO ESPAÇO NO FINAL DO ARQUIVO, SE NÃO ACONTECE ERRO SINTÁTICO NO END OF FILE.
 
 # Gramática 
 * E -> E+T | E-T | T
@@ -31,7 +32,7 @@
 
 # Léxico
 
-!["tabela"](./tabela_parsing.JPG)
+!["automato"](./automato.png)
 
 
 # Sintático
@@ -56,7 +57,7 @@
 * FOLLOW P' -> {* , / , + , - , ) , $}
 * FOLLOW F -> { ] , ^ , * , / , + , - , ) , $}
 
-
+!["tabela"](./tabela_parsing.JPG)
 
 # Semântica
 
