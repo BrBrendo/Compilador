@@ -31,7 +31,7 @@ As entradas são recebidas pelo arquivo input.txt, Vale ressaltar que existe um 
 
 
 # Léxico
-automato alterado no código
+automato foi alterado no código
 !["automato"](./automato.png)
 
 
